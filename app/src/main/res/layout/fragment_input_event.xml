@@ -27,7 +27,8 @@
             android:layout_height="match_parent"
             android:layout_margin="16dp"
             android:scaleType="centerCrop"
-            app:srcCompat="@android:drawable/ic_input_add" />
+            app:srcCompat="@android:drawable/ic_input_add"
+            tools:ignore="ContentDescription" />
     </android.support.v7.widget.CardView>
 
     <android.support.design.widget.TextInputLayout
@@ -48,7 +49,8 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="イベントタイトルを入力"
-            android:singleLine="true" />
+            android:singleLine="true"
+            tools:ignore="Deprecated,HardcodedText" />
     </android.support.design.widget.TextInputLayout>
 
     <android.support.design.widget.TextInputLayout
@@ -67,7 +69,8 @@
             android:id="@+id/bodyEditText"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="イベント概要を入力" />
+            android:hint="イベント概要を入力"
+            tools:ignore="HardcodedText" />
     </android.support.design.widget.TextInputLayout>
 
 </android.support.constraint.ConstraintLayout>
